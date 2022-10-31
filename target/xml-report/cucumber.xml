@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="615.754">
+    <testcase classname="Menude bulunan film ile arama cubugu uzerinden bulunan filmm ozellikleri ayni olmalidir." name="The Circus filmi menu uzerimnden bulunur ve bu film arama cubugundan aratilir. Director, Writer, Stars bilgilerinin ayni oldugu dogrilanir." time="615.49">
+        <system-out>
+            <![CDATA[Given URL adresine gidilir..................................................passed
+When Arama cubugunun sol tarafinda bulunan Menu butonuna basilir............passed
+And Gelen ekranda Award & Events basligi altinda bulunan Oscars butonuna tiklanir.passed
+And Event History basligi altinda 1929 degeri secilir.......................passed
+And Honorary Award basligi altinda The Circus secilir.......................passed
+Then Gelen ekranda The Circus a ait Director Writer Stars bilgisi kayit edilir.passed
+Then Ekranin sol ustunde bulunan imdb butonuna tiklanarak Anasayfaya donulur.passed
+And Arama cubuguna The Circus yazilir.......................................passed
+And Sonuclar arasinda gelen The Circus'a tiklanir...........................passed
+Then Gelen ekranda The Circus a ait Director Writer Stars bilgisi kayit edilen bilgilerle ayni mi kontrol edilir.passed
+And See all Photos linkine tiklanir.........................................passed
+And Gelen ekranda butun fotograflarin linklerinin kirik olamadigi test edilir.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
